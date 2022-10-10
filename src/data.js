@@ -1,83 +1,87 @@
 const data = [
   {
     id: 1,
-    title: "New York",
-    desc: "Home to the Statue of Liberty, Empire State Building, Central Park, Times Square, New York is the most populous city in the USA. We have a lot to tell about the city where city lights illuminate the sky.",
+    title: "Hagia Sophia",
+    desc: "Hagia Sophia was originally built as a church during Byzantine times. In 1453, upon the conquest of what was formerly known as Constantinople by Sultan Mehmed the Conquerer, the church was transformed into a mosque It has seen many restorations and repairs in the time since. Two prominent Ottoman figures, architect Mimar Sinan and calligrapher Kazasker Mustafa Izzet, performed remarkable work on the site which, after it was turned into a museum, was quickly added to the UNESCO's list of World Heritage Sites. In 2020, it was converted into a mosque",
     image:
-      "https://cdn.pixabay.com/photo/2017/06/07/15/47/new-york-city-2380683_960_720.jpg",
+      "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/01/12/thumbs/871x871/85184.jpg",
   },
   {
     id: 2,
-    title: "Philippines",
-    desc: "The island country, the Philippines, is one of the most beautiful countries where blue and green are together. Forget the potion of youth, traveling to the Philippines will rejuvenate you for at least 5 years.",
+    title: "Istanbul Archaeological Museums",
+    desc: "The Istanbul Archaeology Museums are a group of three archaeological museums located in the Eminönü quarter of Istanbul, Turkey, near Gülhane Park and Topkapı Palace. The Istanbul Archaeology Museums consist of three museums: the Archaeological Museum, the Museum of the Ancient Orient and the Museum of Islamic Art.",
     image:
-      "https://bigseventravel.com/wp-content/uploads/2019/11/john-hernandez-IL-fBBnF-GU-unsplash-1920x1440.jpg",
+      "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/01/12/thumbs/871x871/85183.jpg",
   },
   {
     id: 3,
-    title: "Bali",
-    desc: "Bali, Indonesia's most famous island, has taken its place as the 'last paradise' in mind. Providing 80% of its livelihood with tourism, Bali hosts thousands of tourists every year.",
-    image: "https://ak.picdn.net/shutterstock/videos/26368511/thumb/1.jpg",
+    title: "Galata Tower",
+    desc: "The 67-meter-high (220-foot-high) tower situated on the city's European side was constructed in 1348 as a watchtower and later in the Ottoman era, as an observation post against fires. Today, it is a landmark giving a splendid view of the Golden Horn through a narrow panoramic deck at the top. The tower, the tallest building in the city when it was first constructed, was restored multiple times since the 19th century when it was damaged in a fire. The last restoration was done in the 1960s when its roof was reconstructed and the wooden interior was replaced by a concrete structure.",
+    image:
+      "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/01/12/thumbs/871x871/85186.jpg",
   },
   {
     id: 4,
-    title: "Egypt",
-    desc: "Being one of the biggest countries of the Middle East, Egypt has been the transition point of many civilizations with its thousands of years of history. The pyramids and miracles that come to mind when talking about Egypt have been the subject of many films. It still remains a mystery.",
+    title: "Sultan Ahmet Mosque",
+    desc: "Also known as the Blue Mosque, it is the first and only six-minaret mosque of Ottoman architecture. The construction of the mosque ended in 1617 and was built right across from Hagia Sophia.",
     image:
-      "https://images.memphistours.com/large/34d5b5a3fbaa4b3b5d9487bf924b0145.jpg",
+      "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/01/12/thumbs/871x871/85196.jpg",
   },
   {
     id: 5,
-    title: "Cappadocia",
-    desc: "Cappadocia… 'Kappa Tuchia', which means 'Land of Beautiful Horses' in the words of Persians. A location in Turkey and in the center of Anatolia's most popular and unique tourist centers of someone who Cappadocia, magnificent nature, valleys of unique beauty, fairy chimneys, rock-hewn settlements, millions every year with open-air museums and underground cities, local and hosts foreign tourists.",
-    image: "https://i.hurimg.com/i/hdn/75/0x0/5aa10544d3806c25541af273.jpg",
+    title: "The Maiden's Tower",
+    desc: "The Maiden's Tower has served many different purposes over the years, functioning as a tax collection area, a defense tower and a lighthouse. During the cholera epidemic in 1830, it was used as a hospital and even as a radio station. The tower was handed over to the Ministry of Defense in 1964 and then to Maritime Enterprises in 1982. It has undergone extensive renovations and currently functions as a restaurant that is owned by a private company and open to the public.",
+    image:
+      "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/01/12/thumbs/871x871/85188.jpg",
   },
   {
     id: 6,
-    title: "Paris",
-    desc: "Paris has been recognized as one of the most romantic cities in the world. Many famous buildings here have been added to the Unesco World Heritage List. It awaits you with its museums, fashion and historical buildings.",
+    title: "Grand Bazaar",
+    desc: "The Grand Bazaar in Istanbul is one of the largest and oldest covered markets in the world, with 61 covered streets and over 4,000 shops taking up a total area of 30,700 square meters.",
     image:
-      "https://d2rdhxfof4qmbb.cloudfront.net/wp-content/uploads/20180221130827/iStock-155381519.jpg",
+      "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/01/12/thumbs/871x871/85268.jpg",
   },
   {
     id: 7,
-    title: "Venice",
-    desc: "Venice, one of Italy's indispensable stops, is known as the 'City of Channels', 'City of Waters' or 'City of Masks' thanks to its world-famous masks. If you visit in February, you can catch the Venice Carnival, where everyone wears a mask and has fun.",
+    title: "Basilica Cistern",
+    desc: "The Basilica Cistern, or Cisterna Basilica, is the largest of several hundred ancient cisterns that lie beneath the city of Istanbul.",
     image:
-      "https://www.qantas.com/content/travelinsider/en/explore/europe/italy/venice/things-you-need-to-know-before-you-go-to-venice/_jcr_content/parsysTop/hero.img.full.medium.jpg/1535006246068.jpg",
+      "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/01/12/thumbs/871x871/85191.jpg",
   },
   {
     id: 8,
-    title: "India",
-    desc: "If you are not a vacationer but a traveler, we can say that India is the place for you. India, one of the most colorful places in the world, has a crazy variety. The Taj Mahal, the story of which you have heard more or less, is one of its famous buildings.",
-    image: "https://lp-cms-production.imgix.net/2020-11/GettyRF_494057771.jpg",
+    title: "Topkapı Palace Museum",
+    desc: "Topkapı Palace is a large museum in the east of the Fatih district of Istanbul in Turkey. In the 15th and 16th centuries, it served as the main residence and administrative headquarters of the Ottoman sultans. ",
+    image:
+      "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/01/12/thumbs/871x871/85189.jpg",
   },
   {
     id: 9,
-    title: "Northern Lights",
-    desc: "Northern lights, the 'Aurora Borealis', named after the Dawn Goddess Aurora, are the natural glows that emerge in the sky with the interaction of the earth's magnetic field and charged particles from the Sun. This image, which makes most of us feel like in a fairy tale land, deserves to be visited at least once in a lifetime.",
+    title: "St. George's Cathedral",
+    desc: "The Church of St. George is the principal Eastern Orthodox cathedral located in Istanbul, the largest city in Turkey and, as Constantinople, capital of the Byzantine Empire until 1453. Since the 1600s, it has been the seat of the Ecumenical Patriarchate of Constantinople whose leader is regarded as the primus inter pares (first among equals) in the Eastern Orthodox Church, and considered to be the spiritual leader of 300 million Orthodox Christians worldwide.",
     image:
-      "https://images.unsplash.com/photo-1579033461380-adb47c3eb938?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bm9ydGhlcm4lMjBsaWdodHN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+      "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/01/12/thumbs/871x871/85267.jpg",
   },
   {
     id: 10,
-    title: "Fuji Mountain",
-    desc: "The symbol and highest mountain of Japan, Mount Fuji is considered sacred by the Japanese and is called Fuji-San. This mountain, which has an active startovolcano, is depicted in art and photography and is a natural wonder visited by athletes and tourists.",
+    title: "Dolmabahçe Palace",
+    desc: "Dolmabahçe Palace was built per the order of Abdülmecid I and was the home of six sultans. With its eclectic design containing elements from baroque, rococo and neoclassical styles blending with traditional Ottoman architecture, the palace hosted Caliph Abdülmecid Efendi as the last royal of the Ottoman Empire. After the foundation of the Turkish republic, its founder Mustafa Kemal Atatürk used the palace as his presidential residence. Atatürk spent his last days and passed way in the palace on Nov. 10, 1938.",
     image:
-      "https://d20aeo683mqd6t.cloudfront.net/articles/title_images/000/038/943/original/pixta_43064884_S.jpg?2019&d=750x400",
+      "https://idsb.tmgrup.com.tr/ly/uploads/images/2021/01/12/thumbs/871x871/85192.jpg",
   },
   {
     id: 11,
-    title: "Arashiyama Bamboo Grove",
-    desc: "Bamboo Forest, or Arashiyama Bamboo Grove or Sagano Bamboo Forest, is a natural forest of bamboo in Arashiyama, Kyoto, Japan. The forest consists mostly of Moso Bamboo (Phyllostachys edulis) and consists of several pathways for tourists and visitors. The Ministry of the Environment considers it a part of the soundscape of Japan.",
-    image: "https://wallpaperaccess.com/full/534182.jpg",
+    title: "Cappadocia",
+    desc: "Cappadocia is one of the best places to visit in Turkey with its unique geographical formations. There are so many things to do in Cappadocia that you will not be bored even if you stay for a week.",
+    image:
+      "https://istanbulclues.com/wp-content/uploads/2017/05/Cappadocia-Hot-Air-Balloon-Rides.jpg",
   },
   {
     id: 12,
-    title: "Antelope Canyon",
-    desc: "Antelope Canyon is a slot canyon in the American Southwest, on Navajo land east of Page, Arizona. It includes two separate, scenic slot canyon sections, referred to as Upper Antelope Canyon (or The Crack), and Lower Antelope Canyon (or The Corkscrew).",
+    title: "Sumela Monastery",
+    desc: "Sumela Monastery was built on the rocks, which are at the skirts of Mount Karadag. Locals call this place as “St. Mary’s Monastery”. It had been an active monastery from 386 to 1923 and the Byzantine monks lived here.",
     image:
-      "https://images.unsplash.com/photo-1444076784383-69ff7bae1b0a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTJ8fGxvd2VyJTIwYW50ZWxvcGUlMjBjYW55b258ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "https://istanbulclues.com/wp-content/uploads/2018/07/Sumela-Monastery-in-Trabzon.jpg",
   },
 ];
 export default data;
