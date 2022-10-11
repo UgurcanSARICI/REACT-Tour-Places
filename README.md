@@ -30,7 +30,7 @@ checkout-website(folder)
 |----README.md                   
 |----public(folder)                    
 |----src(folder)
-|----packageçjson
+|----package.json
 |----tour.gif
 |----yarn.lock
 
@@ -38,14 +38,14 @@ checkout-website(folder)
 
 ## Screenshot
 <p align="center">
-<a href="https://js-digital-clock-app-us.netlify.app/"><img src="clock.gif" alt="gif"></a>
+<a href="https://react-tour-places-us.netlify.app/"><img src="tour.gif" alt="gif"></a>
 </p>
 
 
 
 ## Links
 <hr>
-<b>Check The Live Website ➡️</b> <a href="https://js-digital-clock-app-us.netlify.app/">Live Website</a>
+<b>Check The Live Website ➡️</b> <a href="https://react-tour-places-us.netlify.app/">Live Website</a>
 <hr>
 
 ### Built with
